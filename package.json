@@ -1,0 +1,22 @@
+{
+	"name": "portfolio_app",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"parcel-bundler": "^1.12.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-google-charts": "^3.0.15",
+		"react-load-script": "0.0.6"
+	},
+	"scripts": {
+		"dev": "parcel src/index.html",
+		"build": "parcel build src/index.html",
+		"start": "npm run build && live-server dist"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.1",
+		"sass": "^1.26.10"
+	}
+}
